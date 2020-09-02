@@ -1,0 +1,18 @@
+{
+  "title": "Polin AWS Notebook",
+  "author": "Polin Huang",
+  "root": ".",
+  "language": "zh-Hans",
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-pro",
+    "-highlight",
+    "prism",
+    "prism-themes",
+    "splitter",
+    "emphasize",
+    "back-to-top-button",
+    "chapter-fold"
+  ]
+}
