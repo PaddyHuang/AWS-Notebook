@@ -2,7 +2,7 @@
   "title": "Polin AWS Notebook",
   "author": "Polin Huang",
   "root": ".",
-  "language": "zh-Hans",
+  "language": "en",
   "plugins": [
     "-lunr",
     "-search",

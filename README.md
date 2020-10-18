@@ -1,77 +1,294 @@
-# 阅读历史
+# AWS Study Note
 
-## 1. 科幻
+## 1. Storage
 
-|      书籍       |   作者   | 出版社 |
-|:--------------:|:--------:|:-----:|
-|  小径分岔的花园  | 【阿根廷】博尔赫斯 | 浙江文艺出版社      |
-|  永恒的终结      | 【美】艾萨克·阿西莫夫 | 江苏凤凰文艺出版社 |
-|  你一生的故事    | 【美】特德·姜 |  译林出版社  |
-|  平面国       |  【英】埃德温·艾勃特 |  大连理工大学出版社 |
-|  神们自己       |  【美】艾萨克·阿西莫夫 |  江苏凤凰文艺出版社 |
-|  三体全集       |  【中】刘慈欣  | 重庆出版社  |
-|  球状闪电       |  【中】刘慈欣  | 四川科学技术出版社  |
-|  北京折叠       |  【中】郝景芳  | 江苏凤凰文艺出版社  |
+- Amazon Simple Storage Service (S3)
+- Amazon Elastic Block Storage (EBS)
+- Amazon Elastic File Storage (EFS)
+- **Amazon FSx for Lustre ?**
+- **Amazon FSx for Windows File Server ?**
+- Amazon S3 Glacier
+- AWS Snow Family
+- AWS Backup
+- AWS Storage Gateway
 
-## 2. 推理
+## 2. Compute
 
-|      书籍       |   作者   | 出版社 |
-|:--------------:|:--------:|:-----:|
-|  恶意           | 【日】东野圭吾 | 南海出版公司 |
-|  从前我死去的家   | 【日】东野圭吾 | 南海出版公司 |
-|  解忧杂货店      | 【日】东野圭吾 | 南海出版公司 |
-|  福尔摩斯探案全集 | 【英】阿瑟·柯南道尔 | 中国电影出版社 |
-|  无人生还        | 【英】阿加莎·克里斯蒂 | 人民文学出版社 |
-|  嫌疑人X的献身   | 【日】东野圭吾 | 南海出版公司 |
-|  白夜行         | 【日】东野圭吾 | 南海出版公司 |
+- Amazon Elastic Compute Cloud (EC2)
+- **Amazon EC2 Auto Scaling ?**
+- Amazon Lightsail
+- **AWS Batch ?**
+- **AWS Elastic Beanstalk ?**
+- **AWS Lambda ?**
+- **AWS Outposts ?**
+- **AWS Serverless Application Repository ?**
+- AWS Snow Family
+- **AWS Wavelength ?**
+- **VMWare Cloud on AWS ?**
 
-## 3. 小说
+## 3. Analytics ?
 
-|      书籍       |   作者   | 出版社 |
-|:--------------:|:--------:|:-----:|
-|  悟空传         | 【中】今何在    | 二十一世纪出版社 |
-|  许三观卖血记    | 【中】余华 | 南海出版公司  |
-|  活着           | 【中】余华 | 南海出版公司 |
-|  霍乱时期的爱情  | 【哥伦比亚】加西亚·马尔克斯 | 南海出版公司 |
-|  1984         | 【英】乔治·奥威尔 | 北京十月文艺出版社 |
-|  月亮和六便士    | 【英】威廉·萨默塞特·毛姆 | 天津人民出版社  |
-|  明朝那些事儿    | 【中】当年明月 | 中国海关出版社  |
-|  我们仨         | 【中】杨绛 | 生活·读书·新知三联书店  |
-|  万物刹那又永恒  | 【英】吉米·哈利 | 中国城市出版社  |
+- Amazon Athena
+- Amazon Cloudsearch
+- Amazon Elasticsearch Service
+- Amazon EMR
+- Amazon Kinesis
+- Amazon Managed Streaming for Apache Kafka
+- Amazon Refshift
+- Amazon Quicksight
+- AWS Data Exchange
+- AWS Data Pipeline
+- AWS Glue
+- AWS Lake Formation
 
-## 4. 科学
+## 4. Application Integration ?
 
-|      书籍       |   作者   | 出版社 |
-|:--------------:|:--------:|:-----:|
-|  费马大定理      | 【英】西蒙·辛格 | 上海译文出版社 |
+- AWS Step Functions
+- Amazon AppFlow
+- Amazon EventBridge
+- Amazon MQ
+- Amazon Simple Notification Service (SNS)
+- Amazon Simple Queue Service (SQS)
+- AWS AppSync
 
-## 5. 生活
+## 5. AR & VR ?
 
-|      书籍       |   作者   | 出版社 |
-|:--------------:|:--------:|:-----:|
-|  看见           | 【中】柴静 | 广西师范大学出版社 |
+- Amazon Sumerian
 
-## 6. 传记
+## 6. AWS Cost Management ?
 
-|      书籍       |   作者   | 出版社 |
-|:--------------:|:--------:|:-----:|
-|  天才在左，疯子在右 | 【中】高铭 | 北京联合出版社 |
+- AWS Cost Explorer
+- AWS Budgets
+- AWS Cost and Usage Report
+- Reserved Instance Reporting
+- Saving Plans
 
-## 7. 经济
+## 7. Blockchain ?
 
-|      书籍       |   作者   | 出版社 |
-|:--------------:|:--------:|:-----:|
-|    |  |  |
+- Amazon Managed Blockchain
+- Amazon Quantum Ledge Database (QLDB)
 
-## 8. 技术
+## 8. Business Applications ?
 
-|      书籍       |   作者   | 出版社 |
-|:--------------:|:--------:|:-----:|
-|  Python编程     | 【美】 埃里克·马瑟斯 | 人民邮电出版社 |
-|  父与子的编程之旅  | 【美】桑德 (Warren Sande)、桑德 (Carter Sande)  | 人民邮电出版社 |
+- Alexa for Business
+- Amazon Chime
+- Amazon Honeycode (Beta)
+- Amazon WorkDocs
+- Amazon WorkMail
 
-## 9. 纪录片
+## 9. Container ?
 
-|      片名       |   作者   | 上映时间 |
-|:--------------:|:--------:|:-----:|
-|  人生·果实     | 【日】 伏原健之 | 2017-01-02 |
+- AWS App2Container
+- Amazon Elastic Container Registry
+- Amazon Elastic Container Service (ECS)
+- Amazon Elastic Kubernates Service (EKS)
+- AWS Fargate
+
+## 10. Developer Tools ?
+
+- Amazon Coretto
+- AWS Cloud Development Kit (CDK)
+- AWS Cloud9
+- AWS Artifact
+- AWS CloudBuild
+- AWS CodeCommit
+- AWS CodeDeploy
+- Amazon CodeGuru
+- AWS CodePipeline
+- AWS CodeStar
+- AWS Command Line Interface
+- AWS Device Farm
+- AWS Tools and SDKS
+- AWS X-Ray
+
+## 11. End User Computing ?
+
+- Amazon WorkSpaces
+- Amazon AppStream 2.0
+- Amazon WorkLink
+
+## 12. Front-End Web & Mobile ?
+
+- AWS Amplify
+- Amazon API Gateway
+- Amazon Pinpoint
+- AWS AppSync
+- AWS Device Farm
+
+## 13. Game Tech ?
+
+- Amazon GameLift
+- Amazon Lumberyard
+
+## 14. Internet of Things ?
+
+- AWS IoT Core
+- AWS Greengrass
+- AWS IoT 1-Click
+- AWS IoT Analytics
+- AWS IoT Button
+- AWS IoT Device Defender
+- AWS IoT Device Management
+- AWS IoT Events
+- AWS SiteWise
+- AWS IoT Things Gragh
+- AWS Partner Device Catalog
+- FreeRTOS
+
+## 15. Machine Learning ?
+
+- Amazon SageMaker
+- Amazon Augmented AI
+- Amazon CodeGuru
+- Amazon Comprehend
+- Amazon Elastic Interface
+- Amazon Forecast
+- Amazon Fraud Detector
+- Amazon Kendra
+- Amazon Lex
+- Amazon Personalize
+- Amazon Polly
+- Amazon Rekognition
+- Amazon SageMaker Ground Truth
+- Amazon Textract
+- Amazon Translate
+- Amazon Transcribe
+- AWS Deep Leaning AIMs
+- AWS Deep Learning Containers
+- AWS DeepComposer
+- AWS DeepLens
+- AWS DeepRacer
+- AWS Inferetia
+- Apache MXNet on AWS
+- Pytorch on AWS
+- TensorFlow on AWS
+
+## 16. Management & Governance ?
+
+- Amazon CloudWatch
+- AWS Auto Scaling
+- AWS Chatbot
+- AWS CloudFormation
+- AWS CloudTrail
+- AWS Command Line Interface
+- AWS Compute Optimizer
+- AWS Config
+- AWS Control Tower
+- AWS Console Mobile Application
+- AWS License Manager
+- AWS Management Console
+- AWS Managed Services
+- AWS OpsWorks
+- AWS Organizations
+- AWS Personal Health Dashboard
+- AWS Service Catalog
+- AWS Systems Manager
+- AWS Trusted advisor
+- AWS Well-Architected Tool
+
+## 17. Media Services ?
+
+- Amazon Elastic Transcoder
+- Amazon Interactive Video Service
+- Amazon Kinesis Video Streams
+- AWS Elemental MediaConnect
+- AWS Elemental MediaConvert
+- AWS Elemental MediaLive
+- AWS Elemental MediaPackage
+- AWS Elemental MediaStore
+- AWS Elemental MediaTailor
+- AWS Elemental Appliances & Software
+
+## 18. Migration & Transfer ?
+
+- AWS Migration Hub
+- AWS Application Discovery Service
+- AWS Database Migration service
+- AWS DataSync
+- AWS Server Migration Service
+- AWS Snow Family
+- AWS Transfer Family
+- CloudEndure Migration
+- Migration Evaluator (formerly TSO Logic)
+
+## 19. Networking & Content Delivery ?
+
+- Amazon Virtual Private Cloud (VPC)
+- Amazon API Gateway
+- Amazon CloudFront
+- Amazon Route 53
+- AWS PrivateLink
+- AWS App Mesh
+- AWS Cloud Map
+- AWS Direct Connect
+- AWS Cloud Accelerator
+- AWS Transit Gateway
+- AWS Elastic Load Balancing (ELB)
+
+## 20. Quantum Technologies ?
+
+- Amazon Braket
+
+## 21. Robotics ?
+
+- Amazon RoboMaker
+
+## 22. Satellite ?
+
+- AWS Ground Station
+
+## 23. Security, Identify & Compliance ?
+
+- AWS Identity & Access Management (IAM)
+- Amazon Cognito
+- Amazon Detective
+- Amazon GuardDuty
+- Amazon Inspector
+- Amazon Macie
+- AWS Artifact
+- AWS Certificate Manager
+- AWS CloudHSM
+- AWS Directory Service
+- AWS Firewall Manager
+- AWS Key Management Service (KMS)
+- AWS Resource Access Manager
+- AWS Secret Manager
+- AWS Secret Hub
+- AWS Shield
+- AWS Single Sign-On
+- AWS WAF
+
+## 24. Serverless ?
+
+- AWS Lambda
+- AWS API Gateway
+- AWS DynamoDB
+- AWS EventBridge
+- Amazon Simple Notification Service (SNS)
+- Amazon Simple Queue Service (SQS)
+- Amazon Simple Storage Service (S3)
+- AWS AppSync
+- AWS Fargate
+- AWS Step Functions
+
+## 25. Customer Engagement ?
+
+- Amazon Connect
+- Amazon Pinpoint
+- Amazon Simple Email Service (SES)
+- Contact Lens for Amazon Connect
+
+## 26. Database
+
+- Amazon Aurora
+- Amazon Relational Database Service (RDS)
+- Amazon RDS on VMWare
+- Amazon DynamoDB
+- Amazon DocumentDB (with MongoBD compatibility)
+- Amazon ElastiCache
+- Amazon Keyspaces (for Apache Cassandra)
+- Amazon Nepptune
+- Amazon Quantum Ledge Database (QLDB)
+- Amazon Redshift
+- Amazon Timestream
+- AWS Database Migration Service
