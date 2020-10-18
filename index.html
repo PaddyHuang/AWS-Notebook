@@ -1,6 +1,6 @@
 
 <!DOCTYPE HTML>
-<html lang="zh-Hans" >
+<html lang="en" >
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -85,7 +85,7 @@
         
             
 <div id="book-search-input" role="search">
-    <input type="text" placeholder="輸入並搜尋" />
+    <input type="text" placeholder="Type to search" />
 </div>
 
             
@@ -265,6 +265,155 @@
             
         </li>
     
+        <li class="chapter " data-level="1.3" data-path="docs/database/overview.html">
+            
+                <a href="docs/database/overview.html">
+            
+                    
+                    2. Database
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="docs/database/rds.html">
+            
+                <a href="docs/database/rds.html">
+            
+                    
+                    Amazon RDS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="docs/database/aurora.html">
+            
+                <a href="docs/database/aurora.html">
+            
+                    
+                    Amazon Aurora
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="docs/database/redshift.html">
+            
+                <a href="docs/database/redshift.html">
+            
+                    
+                    Amazon Redshift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="docs/database/dynamodb.html">
+            
+                <a href="docs/database/dynamodb.html">
+            
+                    
+                    Amazon DynamoDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="docs/database/elasticache.html">
+            
+                <a href="docs/database/elasticache.html">
+            
+                    
+                    Amazon ElastiCache
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="docs/database/ducomentdb.html">
+            
+                <a href="docs/database/ducomentdb.html">
+            
+                    
+                    Amazon DocumentDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="docs/database/keyspaces.html">
+            
+                <a href="docs/database/keyspaces.html">
+            
+                    
+                    Amazon Keyspaces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="docs/database/neptune.html">
+            
+                <a href="docs/database/neptune.html">
+            
+                    
+                    Amazon Neptune
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="docs/database/timestream.html">
+            
+                <a href="docs/database/timestream.html">
+            
+                    
+                    Amazon Timestream
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="docs/database/qldb.html">
+            
+                <a href="docs/database/qldb.html">
+            
+                    
+                    Amazon QLDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
 
     
 
@@ -272,7 +421,7 @@
 
     <li>
         <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            本書使用 GitBook 釋出
+            Published with GitBook
         </a>
     </li>
 </ul>
@@ -310,269 +459,300 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x9605;&#x8BFB;&#x5386;&#x53F2;">&#x9605;&#x8BFB;&#x5386;&#x53F2;</h1>
-<h2 id="1-&#x79D1;&#x5E7B;">1. &#x79D1;&#x5E7B;</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">&#x4E66;&#x7C4D;</th>
-<th style="text-align:center">&#x4F5C;&#x8005;</th>
-<th style="text-align:center">&#x51FA;&#x7248;&#x793E;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">&#x5C0F;&#x5F84;&#x5206;&#x5C94;&#x7684;&#x82B1;&#x56ED;</td>
-<td style="text-align:center">&#x3010;&#x963F;&#x6839;&#x5EF7;&#x3011;&#x535A;&#x5C14;&#x8D6B;&#x65AF;</td>
-<td style="text-align:center">&#x6D59;&#x6C5F;&#x6587;&#x827A;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x6C38;&#x6052;&#x7684;&#x7EC8;&#x7ED3;</td>
-<td style="text-align:center">&#x3010;&#x7F8E;&#x3011;&#x827E;&#x8428;&#x514B;&#xB7;&#x963F;&#x897F;&#x83AB;&#x592B;</td>
-<td style="text-align:center">&#x6C5F;&#x82CF;&#x51E4;&#x51F0;&#x6587;&#x827A;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x4F60;&#x4E00;&#x751F;&#x7684;&#x6545;&#x4E8B;</td>
-<td style="text-align:center">&#x3010;&#x7F8E;&#x3011;&#x7279;&#x5FB7;&#xB7;&#x59DC;</td>
-<td style="text-align:center">&#x8BD1;&#x6797;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x5E73;&#x9762;&#x56FD;</td>
-<td style="text-align:center">&#x3010;&#x82F1;&#x3011;&#x57C3;&#x5FB7;&#x6E29;&#xB7;&#x827E;&#x52C3;&#x7279;</td>
-<td style="text-align:center">&#x5927;&#x8FDE;&#x7406;&#x5DE5;&#x5927;&#x5B66;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x795E;&#x4EEC;&#x81EA;&#x5DF1;</td>
-<td style="text-align:center">&#x3010;&#x7F8E;&#x3011;&#x827E;&#x8428;&#x514B;&#xB7;&#x963F;&#x897F;&#x83AB;&#x592B;</td>
-<td style="text-align:center">&#x6C5F;&#x82CF;&#x51E4;&#x51F0;&#x6587;&#x827A;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x4E09;&#x4F53;&#x5168;&#x96C6;</td>
-<td style="text-align:center">&#x3010;&#x4E2D;&#x3011;&#x5218;&#x6148;&#x6B23;</td>
-<td style="text-align:center">&#x91CD;&#x5E86;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x7403;&#x72B6;&#x95EA;&#x7535;</td>
-<td style="text-align:center">&#x3010;&#x4E2D;&#x3011;&#x5218;&#x6148;&#x6B23;</td>
-<td style="text-align:center">&#x56DB;&#x5DDD;&#x79D1;&#x5B66;&#x6280;&#x672F;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x5317;&#x4EAC;&#x6298;&#x53E0;</td>
-<td style="text-align:center">&#x3010;&#x4E2D;&#x3011;&#x90DD;&#x666F;&#x82B3;</td>
-<td style="text-align:center">&#x6C5F;&#x82CF;&#x51E4;&#x51F0;&#x6587;&#x827A;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-</tbody>
-</table>
-<h2 id="2-&#x63A8;&#x7406;">2. &#x63A8;&#x7406;</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">&#x4E66;&#x7C4D;</th>
-<th style="text-align:center">&#x4F5C;&#x8005;</th>
-<th style="text-align:center">&#x51FA;&#x7248;&#x793E;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">&#x6076;&#x610F;</td>
-<td style="text-align:center">&#x3010;&#x65E5;&#x3011;&#x4E1C;&#x91CE;&#x572D;&#x543E;</td>
-<td style="text-align:center">&#x5357;&#x6D77;&#x51FA;&#x7248;&#x516C;&#x53F8;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x4ECE;&#x524D;&#x6211;&#x6B7B;&#x53BB;&#x7684;&#x5BB6;</td>
-<td style="text-align:center">&#x3010;&#x65E5;&#x3011;&#x4E1C;&#x91CE;&#x572D;&#x543E;</td>
-<td style="text-align:center">&#x5357;&#x6D77;&#x51FA;&#x7248;&#x516C;&#x53F8;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x89E3;&#x5FE7;&#x6742;&#x8D27;&#x5E97;</td>
-<td style="text-align:center">&#x3010;&#x65E5;&#x3011;&#x4E1C;&#x91CE;&#x572D;&#x543E;</td>
-<td style="text-align:center">&#x5357;&#x6D77;&#x51FA;&#x7248;&#x516C;&#x53F8;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x798F;&#x5C14;&#x6469;&#x65AF;&#x63A2;&#x6848;&#x5168;&#x96C6;</td>
-<td style="text-align:center">&#x3010;&#x82F1;&#x3011;&#x963F;&#x745F;&#xB7;&#x67EF;&#x5357;&#x9053;&#x5C14;</td>
-<td style="text-align:center">&#x4E2D;&#x56FD;&#x7535;&#x5F71;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x65E0;&#x4EBA;&#x751F;&#x8FD8;</td>
-<td style="text-align:center">&#x3010;&#x82F1;&#x3011;&#x963F;&#x52A0;&#x838E;&#xB7;&#x514B;&#x91CC;&#x65AF;&#x8482;</td>
-<td style="text-align:center">&#x4EBA;&#x6C11;&#x6587;&#x5B66;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x5ACC;&#x7591;&#x4EBA;X&#x7684;&#x732E;&#x8EAB;</td>
-<td style="text-align:center">&#x3010;&#x65E5;&#x3011;&#x4E1C;&#x91CE;&#x572D;&#x543E;</td>
-<td style="text-align:center">&#x5357;&#x6D77;&#x51FA;&#x7248;&#x516C;&#x53F8;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x767D;&#x591C;&#x884C;</td>
-<td style="text-align:center">&#x3010;&#x65E5;&#x3011;&#x4E1C;&#x91CE;&#x572D;&#x543E;</td>
-<td style="text-align:center">&#x5357;&#x6D77;&#x51FA;&#x7248;&#x516C;&#x53F8;</td>
-</tr>
-</tbody>
-</table>
-<h2 id="3-&#x5C0F;&#x8BF4;">3. &#x5C0F;&#x8BF4;</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">&#x4E66;&#x7C4D;</th>
-<th style="text-align:center">&#x4F5C;&#x8005;</th>
-<th style="text-align:center">&#x51FA;&#x7248;&#x793E;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">&#x609F;&#x7A7A;&#x4F20;</td>
-<td style="text-align:center">&#x3010;&#x4E2D;&#x3011;&#x4ECA;&#x4F55;&#x5728;</td>
-<td style="text-align:center">&#x4E8C;&#x5341;&#x4E00;&#x4E16;&#x7EAA;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x8BB8;&#x4E09;&#x89C2;&#x5356;&#x8840;&#x8BB0;</td>
-<td style="text-align:center">&#x3010;&#x4E2D;&#x3011;&#x4F59;&#x534E;</td>
-<td style="text-align:center">&#x5357;&#x6D77;&#x51FA;&#x7248;&#x516C;&#x53F8;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x6D3B;&#x7740;</td>
-<td style="text-align:center">&#x3010;&#x4E2D;&#x3011;&#x4F59;&#x534E;</td>
-<td style="text-align:center">&#x5357;&#x6D77;&#x51FA;&#x7248;&#x516C;&#x53F8;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x970D;&#x4E71;&#x65F6;&#x671F;&#x7684;&#x7231;&#x60C5;</td>
-<td style="text-align:center">&#x3010;&#x54E5;&#x4F26;&#x6BD4;&#x4E9A;&#x3011;&#x52A0;&#x897F;&#x4E9A;&#xB7;&#x9A6C;&#x5C14;&#x514B;&#x65AF;</td>
-<td style="text-align:center">&#x5357;&#x6D77;&#x51FA;&#x7248;&#x516C;&#x53F8;</td>
-</tr>
-<tr>
-<td style="text-align:center">1984</td>
-<td style="text-align:center">&#x3010;&#x82F1;&#x3011;&#x4E54;&#x6CBB;&#xB7;&#x5965;&#x5A01;&#x5C14;</td>
-<td style="text-align:center">&#x5317;&#x4EAC;&#x5341;&#x6708;&#x6587;&#x827A;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x6708;&#x4EAE;&#x548C;&#x516D;&#x4FBF;&#x58EB;</td>
-<td style="text-align:center">&#x3010;&#x82F1;&#x3011;&#x5A01;&#x5EC9;&#xB7;&#x8428;&#x9ED8;&#x585E;&#x7279;&#xB7;&#x6BDB;&#x59C6;</td>
-<td style="text-align:center">&#x5929;&#x6D25;&#x4EBA;&#x6C11;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x660E;&#x671D;&#x90A3;&#x4E9B;&#x4E8B;&#x513F;</td>
-<td style="text-align:center">&#x3010;&#x4E2D;&#x3011;&#x5F53;&#x5E74;&#x660E;&#x6708;</td>
-<td style="text-align:center">&#x4E2D;&#x56FD;&#x6D77;&#x5173;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x6211;&#x4EEC;&#x4EE8;</td>
-<td style="text-align:center">&#x3010;&#x4E2D;&#x3011;&#x6768;&#x7EDB;</td>
-<td style="text-align:center">&#x751F;&#x6D3B;&#xB7;&#x8BFB;&#x4E66;&#xB7;&#x65B0;&#x77E5;&#x4E09;&#x8054;&#x4E66;&#x5E97;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x4E07;&#x7269;&#x5239;&#x90A3;&#x53C8;&#x6C38;&#x6052;</td>
-<td style="text-align:center">&#x3010;&#x82F1;&#x3011;&#x5409;&#x7C73;&#xB7;&#x54C8;&#x5229;</td>
-<td style="text-align:center">&#x4E2D;&#x56FD;&#x57CE;&#x5E02;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-</tbody>
-</table>
-<h2 id="4-&#x79D1;&#x5B66;">4. &#x79D1;&#x5B66;</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">&#x4E66;&#x7C4D;</th>
-<th style="text-align:center">&#x4F5C;&#x8005;</th>
-<th style="text-align:center">&#x51FA;&#x7248;&#x793E;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">&#x8D39;&#x9A6C;&#x5927;&#x5B9A;&#x7406;</td>
-<td style="text-align:center">&#x3010;&#x82F1;&#x3011;&#x897F;&#x8499;&#xB7;&#x8F9B;&#x683C;</td>
-<td style="text-align:center">&#x4E0A;&#x6D77;&#x8BD1;&#x6587;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-</tbody>
-</table>
-<h2 id="5-&#x751F;&#x6D3B;">5. &#x751F;&#x6D3B;</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">&#x4E66;&#x7C4D;</th>
-<th style="text-align:center">&#x4F5C;&#x8005;</th>
-<th style="text-align:center">&#x51FA;&#x7248;&#x793E;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">&#x770B;&#x89C1;</td>
-<td style="text-align:center">&#x3010;&#x4E2D;&#x3011;&#x67F4;&#x9759;</td>
-<td style="text-align:center">&#x5E7F;&#x897F;&#x5E08;&#x8303;&#x5927;&#x5B66;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-</tbody>
-</table>
-<h2 id="6-&#x4F20;&#x8BB0;">6. &#x4F20;&#x8BB0;</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">&#x4E66;&#x7C4D;</th>
-<th style="text-align:center">&#x4F5C;&#x8005;</th>
-<th style="text-align:center">&#x51FA;&#x7248;&#x793E;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">&#x5929;&#x624D;&#x5728;&#x5DE6;&#xFF0C;&#x75AF;&#x5B50;&#x5728;&#x53F3;</td>
-<td style="text-align:center">&#x3010;&#x4E2D;&#x3011;&#x9AD8;&#x94ED;</td>
-<td style="text-align:center">&#x5317;&#x4EAC;&#x8054;&#x5408;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-</tbody>
-</table>
-<h2 id="7-&#x7ECF;&#x6D4E;">7. &#x7ECF;&#x6D4E;</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">&#x4E66;&#x7C4D;</th>
-<th style="text-align:center">&#x4F5C;&#x8005;</th>
-<th style="text-align:center">&#x51FA;&#x7248;&#x793E;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"></td>
-<td style="text-align:center"></td>
-</tr>
-</tbody>
-</table>
-<h2 id="8-&#x6280;&#x672F;">8. &#x6280;&#x672F;</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">&#x4E66;&#x7C4D;</th>
-<th style="text-align:center">&#x4F5C;&#x8005;</th>
-<th style="text-align:center">&#x51FA;&#x7248;&#x793E;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Python&#x7F16;&#x7A0B;</td>
-<td style="text-align:center">&#x3010;&#x7F8E;&#x3011; &#x57C3;&#x91CC;&#x514B;&#xB7;&#x9A6C;&#x745F;&#x65AF;</td>
-<td style="text-align:center">&#x4EBA;&#x6C11;&#x90AE;&#x7535;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-<tr>
-<td style="text-align:center">&#x7236;&#x4E0E;&#x5B50;&#x7684;&#x7F16;&#x7A0B;&#x4E4B;&#x65C5;</td>
-<td style="text-align:center">&#x3010;&#x7F8E;&#x3011;&#x6851;&#x5FB7; (Warren Sande)&#x3001;&#x6851;&#x5FB7; (Carter Sande)</td>
-<td style="text-align:center">&#x4EBA;&#x6C11;&#x90AE;&#x7535;&#x51FA;&#x7248;&#x793E;</td>
-</tr>
-</tbody>
-</table>
-<h2 id="9-&#x7EAA;&#x5F55;&#x7247;">9. &#x7EAA;&#x5F55;&#x7247;</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">&#x7247;&#x540D;</th>
-<th style="text-align:center">&#x4F5C;&#x8005;</th>
-<th style="text-align:center">&#x4E0A;&#x6620;&#x65F6;&#x95F4;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">&#x4EBA;&#x751F;&#xB7;&#x679C;&#x5B9E;</td>
-<td style="text-align:center">&#x3010;&#x65E5;&#x3011; &#x4F0F;&#x539F;&#x5065;&#x4E4B;</td>
-<td style="text-align:center">2017-01-02</td>
-</tr>
-</tbody>
-</table>
+                                <h1 id="aws-study-note">AWS Study Note</h1>
+<h2 id="1-storage">1. Storage</h2>
+<ul>
+<li>Amazon Simple Storage Service (S3)</li>
+<li>Amazon Elastic Block Storage (EBS)</li>
+<li>Amazon Elastic File Storage (EFS)</li>
+<li><strong>Amazon FSx for Lustre ?</strong></li>
+<li><strong>Amazon FSx for Windows File Server ?</strong></li>
+<li>Amazon S3 Glacier</li>
+<li>AWS Snow Family</li>
+<li>AWS Backup</li>
+<li>AWS Storage Gateway</li>
+</ul>
+<h2 id="2-compute">2. Compute</h2>
+<ul>
+<li>Amazon Elastic Compute Cloud (EC2)</li>
+<li><strong>Amazon EC2 Auto Scaling ?</strong></li>
+<li>Amazon Lightsail</li>
+<li><strong>AWS Batch ?</strong></li>
+<li><strong>AWS Elastic Beanstalk ?</strong></li>
+<li><strong>AWS Lambda ?</strong></li>
+<li><strong>AWS Outposts ?</strong></li>
+<li><strong>AWS Serverless Application Repository ?</strong></li>
+<li>AWS Snow Family</li>
+<li><strong>AWS Wavelength ?</strong></li>
+<li><strong>VMWare Cloud on AWS ?</strong></li>
+</ul>
+<h2 id="3-analytics-">3. Analytics ?</h2>
+<ul>
+<li>Amazon Athena</li>
+<li>Amazon Cloudsearch</li>
+<li>Amazon Elasticsearch Service</li>
+<li>Amazon EMR</li>
+<li>Amazon Kinesis</li>
+<li>Amazon Managed Streaming for Apache Kafka</li>
+<li>Amazon Refshift</li>
+<li>Amazon Quicksight</li>
+<li>AWS Data Exchange</li>
+<li>AWS Data Pipeline</li>
+<li>AWS Glue</li>
+<li>AWS Lake Formation</li>
+</ul>
+<h2 id="4-application-integration-">4. Application Integration ?</h2>
+<ul>
+<li>AWS Step Functions</li>
+<li>Amazon AppFlow</li>
+<li>Amazon EventBridge</li>
+<li>Amazon MQ</li>
+<li>Amazon Simple Notification Service (SNS)</li>
+<li>Amazon Simple Queue Service (SQS)</li>
+<li>AWS AppSync</li>
+</ul>
+<h2 id="5-ar--vr-">5. AR &amp; VR ?</h2>
+<ul>
+<li>Amazon Sumerian</li>
+</ul>
+<h2 id="6-aws-cost-management-">6. AWS Cost Management ?</h2>
+<ul>
+<li>AWS Cost Explorer</li>
+<li>AWS Budgets</li>
+<li>AWS Cost and Usage Report</li>
+<li>Reserved Instance Reporting</li>
+<li>Saving Plans</li>
+</ul>
+<h2 id="7-blockchain-">7. Blockchain ?</h2>
+<ul>
+<li>Amazon Managed Blockchain</li>
+<li>Amazon Quantum Ledge Database (QLDB)</li>
+</ul>
+<h2 id="8-business-applications-">8. Business Applications ?</h2>
+<ul>
+<li>Alexa for Business</li>
+<li>Amazon Chime</li>
+<li>Amazon Honeycode (Beta)</li>
+<li>Amazon WorkDocs</li>
+<li>Amazon WorkMail</li>
+</ul>
+<h2 id="9-container-">9. Container ?</h2>
+<ul>
+<li>AWS App2Container</li>
+<li>Amazon Elastic Container Registry</li>
+<li>Amazon Elastic Container Service (ECS)</li>
+<li>Amazon Elastic Kubernates Service (EKS)</li>
+<li>AWS Fargate</li>
+</ul>
+<h2 id="10-developer-tools-">10. Developer Tools ?</h2>
+<ul>
+<li>Amazon Coretto</li>
+<li>AWS Cloud Development Kit (CDK)</li>
+<li>AWS Cloud9</li>
+<li>AWS Artifact</li>
+<li>AWS CloudBuild</li>
+<li>AWS CodeCommit</li>
+<li>AWS CodeDeploy</li>
+<li>Amazon CodeGuru</li>
+<li>AWS CodePipeline</li>
+<li>AWS CodeStar</li>
+<li>AWS Command Line Interface</li>
+<li>AWS Device Farm</li>
+<li>AWS Tools and SDKS</li>
+<li>AWS X-Ray</li>
+</ul>
+<h2 id="11-end-user-computing-">11. End User Computing ?</h2>
+<ul>
+<li>Amazon WorkSpaces</li>
+<li>Amazon AppStream 2.0</li>
+<li>Amazon WorkLink</li>
+</ul>
+<h2 id="12-front-end-web--mobile-">12. Front-End Web &amp; Mobile ?</h2>
+<ul>
+<li>AWS Amplify</li>
+<li>Amazon API Gateway</li>
+<li>Amazon Pinpoint</li>
+<li>AWS AppSync</li>
+<li>AWS Device Farm</li>
+</ul>
+<h2 id="13-game-tech-">13. Game Tech ?</h2>
+<ul>
+<li>Amazon GameLift</li>
+<li>Amazon Lumberyard</li>
+</ul>
+<h2 id="14-internet-of-things-">14. Internet of Things ?</h2>
+<ul>
+<li>AWS IoT Core</li>
+<li>AWS Greengrass</li>
+<li>AWS IoT 1-Click</li>
+<li>AWS IoT Analytics</li>
+<li>AWS IoT Button</li>
+<li>AWS IoT Device Defender</li>
+<li>AWS IoT Device Management</li>
+<li>AWS IoT Events</li>
+<li>AWS SiteWise</li>
+<li>AWS IoT Things Gragh</li>
+<li>AWS Partner Device Catalog</li>
+<li>FreeRTOS</li>
+</ul>
+<h2 id="15-machine-learning-">15. Machine Learning ?</h2>
+<ul>
+<li>Amazon SageMaker</li>
+<li>Amazon Augmented AI</li>
+<li>Amazon CodeGuru</li>
+<li>Amazon Comprehend</li>
+<li>Amazon Elastic Interface</li>
+<li>Amazon Forecast</li>
+<li>Amazon Fraud Detector</li>
+<li>Amazon Kendra</li>
+<li>Amazon Lex</li>
+<li>Amazon Personalize</li>
+<li>Amazon Polly</li>
+<li>Amazon Rekognition</li>
+<li>Amazon SageMaker Ground Truth</li>
+<li>Amazon Textract</li>
+<li>Amazon Translate</li>
+<li>Amazon Transcribe</li>
+<li>AWS Deep Leaning AIMs</li>
+<li>AWS Deep Learning Containers</li>
+<li>AWS DeepComposer</li>
+<li>AWS DeepLens</li>
+<li>AWS DeepRacer</li>
+<li>AWS Inferetia</li>
+<li>Apache MXNet on AWS</li>
+<li>Pytorch on AWS</li>
+<li>TensorFlow on AWS</li>
+</ul>
+<h2 id="16-management--governance-">16. Management &amp; Governance ?</h2>
+<ul>
+<li>Amazon CloudWatch</li>
+<li>AWS Auto Scaling</li>
+<li>AWS Chatbot</li>
+<li>AWS CloudFormation</li>
+<li>AWS CloudTrail</li>
+<li>AWS Command Line Interface</li>
+<li>AWS Compute Optimizer</li>
+<li>AWS Config</li>
+<li>AWS Control Tower</li>
+<li>AWS Console Mobile Application</li>
+<li>AWS License Manager</li>
+<li>AWS Management Console</li>
+<li>AWS Managed Services</li>
+<li>AWS OpsWorks</li>
+<li>AWS Organizations</li>
+<li>AWS Personal Health Dashboard</li>
+<li>AWS Service Catalog</li>
+<li>AWS Systems Manager</li>
+<li>AWS Trusted advisor</li>
+<li>AWS Well-Architected Tool</li>
+</ul>
+<h2 id="17-media-services-">17. Media Services ?</h2>
+<ul>
+<li>Amazon Elastic Transcoder</li>
+<li>Amazon Interactive Video Service</li>
+<li>Amazon Kinesis Video Streams</li>
+<li>AWS Elemental MediaConnect</li>
+<li>AWS Elemental MediaConvert</li>
+<li>AWS Elemental MediaLive</li>
+<li>AWS Elemental MediaPackage</li>
+<li>AWS Elemental MediaStore</li>
+<li>AWS Elemental MediaTailor</li>
+<li>AWS Elemental Appliances &amp; Software</li>
+</ul>
+<h2 id="18-migration--transfer-">18. Migration &amp; Transfer ?</h2>
+<ul>
+<li>AWS Migration Hub</li>
+<li>AWS Application Discovery Service</li>
+<li>AWS Database Migration service</li>
+<li>AWS DataSync</li>
+<li>AWS Server Migration Service</li>
+<li>AWS Snow Family</li>
+<li>AWS Transfer Family</li>
+<li>CloudEndure Migration</li>
+<li>Migration Evaluator (formerly TSO Logic)</li>
+</ul>
+<h2 id="19-networking--content-delivery-">19. Networking &amp; Content Delivery ?</h2>
+<ul>
+<li>Amazon Virtual Private Cloud (VPC)</li>
+<li>Amazon API Gateway</li>
+<li>Amazon CloudFront</li>
+<li>Amazon Route 53</li>
+<li>AWS PrivateLink</li>
+<li>AWS App Mesh</li>
+<li>AWS Cloud Map</li>
+<li>AWS Direct Connect</li>
+<li>AWS Cloud Accelerator</li>
+<li>AWS Transit Gateway</li>
+<li>AWS Elastic Load Balancing (ELB)</li>
+</ul>
+<h2 id="20-quantum-technologies-">20. Quantum Technologies ?</h2>
+<ul>
+<li>Amazon Braket</li>
+</ul>
+<h2 id="21-robotics-">21. Robotics ?</h2>
+<ul>
+<li>Amazon RoboMaker</li>
+</ul>
+<h2 id="22-satellite-">22. Satellite ?</h2>
+<ul>
+<li>AWS Ground Station</li>
+</ul>
+<h2 id="23-security-identify--compliance-">23. Security, Identify &amp; Compliance ?</h2>
+<ul>
+<li>AWS Identity &amp; Access Management (IAM)</li>
+<li>Amazon Cognito</li>
+<li>Amazon Detective</li>
+<li>Amazon GuardDuty</li>
+<li>Amazon Inspector</li>
+<li>Amazon Macie</li>
+<li>AWS Artifact</li>
+<li>AWS Certificate Manager</li>
+<li>AWS CloudHSM</li>
+<li>AWS Directory Service</li>
+<li>AWS Firewall Manager</li>
+<li>AWS Key Management Service (KMS)</li>
+<li>AWS Resource Access Manager</li>
+<li>AWS Secret Manager</li>
+<li>AWS Secret Hub</li>
+<li>AWS Shield</li>
+<li>AWS Single Sign-On</li>
+<li>AWS WAF</li>
+</ul>
+<h2 id="24-serverless-">24. Serverless ?</h2>
+<ul>
+<li>AWS Lambda</li>
+<li>AWS API Gateway</li>
+<li>AWS DynamoDB</li>
+<li>AWS EventBridge</li>
+<li>Amazon Simple Notification Service (SNS)</li>
+<li>Amazon Simple Queue Service (SQS)</li>
+<li>Amazon Simple Storage Service (S3)</li>
+<li>AWS AppSync</li>
+<li>AWS Fargate</li>
+<li>AWS Step Functions</li>
+</ul>
+<h2 id="25-customer-engagement-">25. Customer Engagement ?</h2>
+<ul>
+<li>Amazon Connect</li>
+<li>Amazon Pinpoint</li>
+<li>Amazon Simple Email Service (SES)</li>
+<li>Contact Lens for Amazon Connect</li>
+</ul>
+<h2 id="26-database">26. Database</h2>
+<ul>
+<li>Amazon Aurora</li>
+<li>Amazon Relational Database Service (RDS)</li>
+<li>Amazon RDS on VMWare</li>
+<li>Amazon DynamoDB</li>
+<li>Amazon DocumentDB (with MongoBD compatibility)</li>
+<li>Amazon ElastiCache</li>
+<li>Amazon Keyspaces (for Apache Cassandra)</li>
+<li>Amazon Nepptune</li>
+<li>Amazon Quantum Ledge Database (QLDB)</li>
+<li>Amazon Redshift</li>
+<li>Amazon Timestream</li>
+<li>AWS Database Migration Service</li>
+</ul>
 
                                 
                                 </section>
@@ -612,7 +792,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Outline","level":"1.1","depth":1,"next":{"title":"1. Storage","level":"1.2","depth":1,"path":"docs/storage/overview.md","ref":"docs/storage/overview.md","articles":[{"title":"Amazon Simple Storage Service(S3)","level":"1.2.1","depth":2,"path":"docs/storage/s3.md","ref":"docs/storage/s3.md","articles":[]},{"title":"Amazon Elastic Block Store(EBS)","level":"1.2.2","depth":2,"path":"docs/storage/ebs.md","ref":"docs/storage/ebs.md","articles":[]},{"title":"Amazon Elastic File System","level":"1.2.3","depth":2,"path":"docs/storage/efs.md","ref":"docs/storage/efs.md","articles":[]},{"title":"Amazon FSx for Windows File Server","level":"1.2.4","depth":2,"path":"docs/storage/fsxwindows.md","ref":"docs/storage/fsxwindows.md","articles":[]},{"title":"Amazon FSx for Lustre","level":"1.2.5","depth":2,"path":"docs/storage/fsxlustre.md","ref":"docs/storage/fsxlustre.md","articles":[]},{"title":"AWS Backup","level":"1.2.6","depth":2,"path":"docs/storage/backup.md","ref":"docs/storage/backup.md","articles":[]},{"title":"AWS Storage Gateway","level":"1.2.7","depth":2,"path":"docs/storage/storagegateway.md","ref":"docs/storage/storagegateway.md","articles":[]},{"title":"AWS DataSync","level":"1.2.8","depth":2,"path":"docs/storage/datasync.md","ref":"docs/storage/datasync.md","articles":[]},{"title":"AWS Transfer Family","level":"1.2.9","depth":2,"path":"docs/storage/transferfamily.md","ref":"docs/storage/transferfamily.md","articles":[]},{"title":"AWS Snow Family","level":"1.2.10","depth":2,"path":"docs/storage/snowfamily.md","ref":"docs/storage/snowfamily.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-highlight","prism","prism-themes","splitter","emphasize","back-to-top-button","chapter-fold"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{},"emphasize":{},"splitter":{},"search-pro":{},"fontsettings":{"theme":"white","family":"sans","size":2},"back-to-top-button":{},"prism-themes":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Polin Huang","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Polin AWS Notebook","language":"zh-Hans","gitbook":"*"},"file":{"path":"README.md","mtime":"2020-09-04T01:48:59.147Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-09-04T01:50:09.799Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Outline","level":"1.1","depth":1,"next":{"title":"1. Storage","level":"1.2","depth":1,"path":"docs/storage/overview.md","ref":"docs/storage/overview.md","articles":[{"title":"Amazon Simple Storage Service(S3)","level":"1.2.1","depth":2,"path":"docs/storage/s3.md","ref":"docs/storage/s3.md","articles":[]},{"title":"Amazon Elastic Block Store(EBS)","level":"1.2.2","depth":2,"path":"docs/storage/ebs.md","ref":"docs/storage/ebs.md","articles":[]},{"title":"Amazon Elastic File System","level":"1.2.3","depth":2,"path":"docs/storage/efs.md","ref":"docs/storage/efs.md","articles":[]},{"title":"Amazon FSx for Windows File Server","level":"1.2.4","depth":2,"path":"docs/storage/fsxwindows.md","ref":"docs/storage/fsxwindows.md","articles":[]},{"title":"Amazon FSx for Lustre","level":"1.2.5","depth":2,"path":"docs/storage/fsxlustre.md","ref":"docs/storage/fsxlustre.md","articles":[]},{"title":"AWS Backup","level":"1.2.6","depth":2,"path":"docs/storage/backup.md","ref":"docs/storage/backup.md","articles":[]},{"title":"AWS Storage Gateway","level":"1.2.7","depth":2,"path":"docs/storage/storagegateway.md","ref":"docs/storage/storagegateway.md","articles":[]},{"title":"AWS DataSync","level":"1.2.8","depth":2,"path":"docs/storage/datasync.md","ref":"docs/storage/datasync.md","articles":[]},{"title":"AWS Transfer Family","level":"1.2.9","depth":2,"path":"docs/storage/transferfamily.md","ref":"docs/storage/transferfamily.md","articles":[]},{"title":"AWS Snow Family","level":"1.2.10","depth":2,"path":"docs/storage/snowfamily.md","ref":"docs/storage/snowfamily.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-highlight","prism","prism-themes","splitter","emphasize","back-to-top-button","chapter-fold"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{},"emphasize":{},"splitter":{},"search-pro":{},"fontsettings":{"theme":"white","family":"sans","size":2},"back-to-top-button":{},"prism-themes":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Polin Huang","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Polin AWS Notebook","language":"en","gitbook":"*"},"file":{"path":"README.md","mtime":"2020-10-18T14:49:35.594Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-10-18T14:50:47.589Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
